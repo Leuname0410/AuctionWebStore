@@ -1,0 +1,11 @@
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\bin\Debug\libLlenarGrids.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\bin\Debug\libLlenarGrids.pdb
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\bin\Debug\libConexionBD.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\bin\Debug\libParametros.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\bin\Debug\libConexionBD.pdb
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\bin\Debug\libParametros.pdb
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\obj\Debug\libLlenarGrids.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\obj\Debug\libLlenarGrids.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\obj\Debug\libLlenarGrids.csproj.CopyComplete
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\obj\Debug\libLlenarGrids.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarGrids\libLlenarGrids\obj\Debug\libLlenarGrids.pdb

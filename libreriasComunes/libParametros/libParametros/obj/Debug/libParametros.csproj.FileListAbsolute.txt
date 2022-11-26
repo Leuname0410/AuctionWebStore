@@ -1,0 +1,5 @@
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libParametros\libParametros\bin\Debug\libParametros.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libParametros\libParametros\bin\Debug\libParametros.pdb
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libParametros\libParametros\obj\Debug\libParametros.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libParametros\libParametros\obj\Debug\libParametros.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libParametros\libParametros\obj\Debug\libParametros.pdb

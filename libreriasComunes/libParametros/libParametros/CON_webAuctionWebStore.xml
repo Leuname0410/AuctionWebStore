@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Parametros>
+	<Servidor>CARLOSMORENO\SQLEXPRESS</Servidor> <!--Nombre del servidor-->
+	<BaseDatos>DBAUCTIONWEBSTORE</BaseDatos>
+	<Usuario>PepitoPerez123</Usuario>
+	<Clave>Perez</Clave>
+	<SeguridadIntegrada>Si</SeguridadIntegrada>
+</Parametros>

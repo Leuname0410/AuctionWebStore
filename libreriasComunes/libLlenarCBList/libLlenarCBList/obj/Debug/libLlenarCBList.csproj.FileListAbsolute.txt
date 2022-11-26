@@ -1,0 +1,11 @@
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\bin\Debug\libLlenarCBList.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\bin\Debug\libLlenarCBList.pdb
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\bin\Debug\libConexionBD.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\bin\Debug\libParametros.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\bin\Debug\libConexionBD.pdb
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\bin\Debug\libParametros.pdb
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\obj\Debug\libLlenarCBList.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\obj\Debug\libLlenarCBList.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\obj\Debug\libLlenarCBList.csproj.CopyComplete
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\obj\Debug\libLlenarCBList.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libLlenarCBList\libLlenarCBList\obj\Debug\libLlenarCBList.pdb

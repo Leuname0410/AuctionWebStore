@@ -1,0 +1,9 @@
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libConexionBD\libConexionBD\bin\Debug\libConexionBD.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libConexionBD\libConexionBD\bin\Debug\libConexionBD.pdb
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libConexionBD\libConexionBD\bin\Debug\libParametros.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libConexionBD\libConexionBD\bin\Debug\libParametros.pdb
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libConexionBD\libConexionBD\obj\Debug\libConexionBD.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libConexionBD\libConexionBD\obj\Debug\libConexionBD.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libConexionBD\libConexionBD\obj\Debug\libConexionBD.csproj.CopyComplete
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libConexionBD\libConexionBD\obj\Debug\libConexionBD.dll
+C:\Users\admin\Documents\ProgSw\Practicas\libreriasComunes\libConexionBD\libConexionBD\obj\Debug\libConexionBD.pdb
