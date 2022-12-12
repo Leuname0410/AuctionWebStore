@@ -34,8 +34,8 @@ namespace webAuctionWebStore.Clases
                 }
 
                 clsGenerales objLlenar = new clsGenerales(strApp);
-                strSQL = "EXEC USP_DEPARTAMENTO" + ";";
-                if (!objLlenar.llenarCombo(Combo, strSQL, "Codigo", "Nombre"))
+                strSQL = "EXEC USP_DEPARTAMENTOS" + ";";
+                if (!objLlenar.llenarCombo(Combo, strSQL, "Codigo", "Nombre")) 
                 {
                     Error = objLlenar.Error;
                     objLlenar = null;

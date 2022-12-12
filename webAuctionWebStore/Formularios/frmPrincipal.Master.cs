@@ -10,7 +10,5 @@ namespace webAuctionWebStore.Formularios
     public partial class frmPrincipal : System.Web.UI.MasterPage
     {
 
-
-
     }
 }

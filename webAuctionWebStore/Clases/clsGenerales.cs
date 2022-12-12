@@ -1,7 +1,13 @@
-﻿using System;
+﻿using libLlenarGrids;
+using libLlenarCombos;
+using libLlenarCBList;
+using libLlenarRBList;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.UI.WebControls;
+
 namespace webAuctionWebStore.Clases
 {
     public class clsGenerales
@@ -136,10 +142,11 @@ namespace webAuctionWebStore.Clases
                     return false;
                 }
 
+                //Utiliza ademas los dos parámetros adicionales porque es dropdown
                 clsLlenarRBList objXX = new clsLlenarRBList(strApp);
                 objXX.SQL = SQL;
-                objXX.campoID = CampoPK;
-                objXX.campoTexto = CampoTexto;
+                objXX.campoID = CampoPK;//Nombre del campo de la clave primaria
+                objXX.campoTexto = CampoTexto;//Nombre del campo del texto asociado a la Pk a mostrar
                 if (!objXX.llenarRadioBLWeb(radioBL))
                 {
                     Error = objXX.Error;

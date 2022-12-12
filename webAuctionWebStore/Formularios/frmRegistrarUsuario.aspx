@@ -110,23 +110,23 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style18">CIUDAD:</td>
+                    <td class="auto-style18">DEPARTAMENTO:</td>
                     <td class="auto-style2">
-                        <asp:DropDownList ID="ddlCiudad" runat="server" CssClass="auto-style16">
+                        <asp:DropDownList ID="ddlDepart" runat="server" CssClass="auto-style16" Height="33px" Width="185px">
                         </asp:DropDownList>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style18">DEPARTAMENTO:</td>
+                    <td class="auto-style18">CIUDAD:</td>
                     <td class="auto-style20">
-                        <asp:DropDownList ID="ddlDepart" runat="server" CssClass="auto-style16">
+                        <asp:DropDownList ID="ddlCiudad" runat="server" CssClass="auto-style16" Height="24px" Width="185px">
                         </asp:DropDownList>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style18">DIRECCIÓN:</td>
                     <td class="auto-style20">
-                        <asp:TextBox ID="txtDireccion" runat="server" CssClass="auto-style16" Width="50%"></asp:TextBox>
+                        <asp:TextBox ID="txtDireccion" runat="server" CssClass="auto-style16" Width="50%" ></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -138,19 +138,30 @@
                 <tr>
                     <td class="auto-style18">EMAIL:</td>
                     <td class="auto-style2">
-                        <asp:TextBox ID="txtEmail" runat="server" CssClass="auto-style16" Width="50%"></asp:TextBox>
+                        <asp:TextBox ID="txtEmail" runat="server" CssClass="auto-style16" Width="50%" TextMode="Email"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style18">CONTRASEÑA:</td>
                     <td class="auto-style2">
-                        <asp:TextBox ID="txtContra" runat="server" CssClass="auto-style16" Width="50%"></asp:TextBox>
+                        <asp:TextBox ID="txtContra" runat="server" CssClass="auto-style16" Width="50%" TextMode="Password"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style18">CONFIRMAR CONTRASEÑA:</td>
                     <td class="auto-style19">
-                        <asp:TextBox ID="txtConfrContra" runat="server" CssClass="auto-style16" Width="50%"></asp:TextBox>
+                        <asp:TextBox ID="txtConfrContra" runat="server" CssClass="auto-style16" Width="50%" TextMode="Password"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style24" colspan="2">
+                        <asp:Menu ID="Menu1" runat="server" BackColor="#0099FF" Font-Bold="True" Font-Size="Large" ForeColor="White" Orientation="Horizontal" RenderingMode="Table" Width="98%">
+                            <Items>
+                                <asp:MenuItem Text="Agregar" Value="opcAgregar"></asp:MenuItem>
+                                <asp:MenuItem Text="Editar" Value="opcEditar"></asp:MenuItem>
+                                <asp:MenuItem Text="Eliminar" Value="opcEliminar"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
                     </td>
                 </tr>
                 <tr>
@@ -159,7 +170,15 @@
                         </strong></td>
                 </tr>
                 <tr>
-                    <td class="auto-style12" colspan="2"></td>
+                    <td class="auto-style12" colspan="2">
+                        <asp:GridView ID="grvDatosUsuario" runat="server" Width="98%">
+                            <Columns>
+                                <asp:CommandField ButtonType="Image" ShowSelectButton="True">
+                                <FooterStyle HorizontalAlign="Center" VerticalAlign="Middle"  />
+                                </asp:CommandField>
+                            </Columns>
+                        </asp:GridView>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style5" colspan="2">

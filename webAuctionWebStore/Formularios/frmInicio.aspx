@@ -2,7 +2,9 @@
 <asp:Content ID="Content4" ContentPlaceHolderID="Cuerpo" runat="server">
     <table class="auto-style6">
         <tr>
-            <td class="auto-style9">BIENVENIDO</td>
+            <td class="auto-style9">BIENVENIDO
+                <asp:Label ID="lblUserName" runat="server"></asp:Label>
+            </td>
         </tr>
         <tr>
             <td class="auto-style10">
@@ -23,7 +25,8 @@
             text-align: center;
             font-family: Broadway;
             font-size: xx-large;
-        }
+        height: 18px;
+    }
         .auto-style10 {
             text-align: center;
         }

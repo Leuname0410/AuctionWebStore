@@ -43,6 +43,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="libConexionBD">
+      <HintPath>..\..\libreriasComunes\libConexionBD\libConexionBD\bin\Debug\libConexionBD.dll</HintPath>
+    </Reference>
+    <Reference Include="libLlenarCBList">
+      <HintPath>..\..\libreriasComunes\libLlenarCBList\libLlenarCBList\bin\Debug\libLlenarCBList.dll</HintPath>
+    </Reference>
+    <Reference Include="libLlenarCombos">
+      <HintPath>..\..\libreriasComunes\libLlenarCombos\libLlenarCombos\bin\Debug\libLlenarCombos.dll</HintPath>
+    </Reference>
+    <Reference Include="libLlenarGrids">
+      <HintPath>..\..\libreriasComunes\libLlenarGrids\libLlenarGrids\bin\Debug\libLlenarGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="libLlenarRBList">
+      <HintPath>..\..\libreriasComunes\libLlenarRBList\libLlenarRBList\bin\Debug\libLlenarRBList.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -67,6 +82,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Formularios\frmLogin.aspx" />
+    <Content Include="Formularios\frmUsuarioRegistrar.aspx" />
     <Content Include="Formularios\frmCrearRemate.aspx" />
     <Content Include="Formularios\frmInicio.aspx" />
     <Content Include="Formularios\frmRealizarPago.aspx" />
@@ -74,14 +91,35 @@
     <Content Include="Formularios\frmRegistros.aspx" />
     <Content Include="Formularios\frmRemate.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Imagenes\Buscar.jpg" />
+    <Content Include="Imagenes\error.ico" />
     <Content Include="Imagenes\logo.jpg" />
     <Content Include="Imagenes\subastas-online.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\clsEstado.cs" />
+    <Compile Include="Clases\clsLogin.cs" />
+    <Compile Include="Clases\clsRol.cs" />
+    <Compile Include="Clases\clsTipoDoc.cs" />
     <Compile Include="Clases\clsCiudad.cs" />
     <Compile Include="Clases\clsDepartamento.cs" />
     <Compile Include="Clases\clsGenerales.cs" />
+    <Compile Include="Clases\clsUsuario.cs" />
+    <Compile Include="Formularios\frmLogin.aspx.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmLogin.aspx.designer.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmUsuarioRegistrar.aspx.cs">
+      <DependentUpon>frmUsuarioRegistrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmUsuarioRegistrar.aspx.designer.cs">
+      <DependentUpon>frmUsuarioRegistrar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frmCrearRemate.aspx.cs">
       <DependentUpon>frmCrearRemate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

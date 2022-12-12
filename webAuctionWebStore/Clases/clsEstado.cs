@@ -6,7 +6,7 @@ using System.Web.UI.WebControls;
 
 namespace webAuctionWebStore.Clases
 {
-    public class clsCiudad
+    public class clsEstado
     {
         #region "Atributos / Propiedades"
         private string strApp;
@@ -14,7 +14,7 @@ namespace webAuctionWebStore.Clases
         public string Error { get; private set; }
         #endregion
         #region "Constructor"
-        public clsCiudad(string nombreApp)
+        public clsEstado(string nombreApp)
         {
             strApp = nombreApp;
             strSQL = string.Empty;
@@ -35,7 +35,7 @@ namespace webAuctionWebStore.Clases
                 }
 
                 clsGenerales objLlenar = new clsGenerales(strApp);
-                strSQL = "EXEC USP_CIUDAD_LlenarCombo " + ";";
+                strSQL = "EXEC USP_Estado_BuscarGeneral " + ";";
 
                 if (!objLlenar.llenarCombo(Combo, strSQL, "Codigo", "Nombre"))
                 {
@@ -52,36 +52,6 @@ namespace webAuctionWebStore.Clases
                 return false;
             }
         }
-
-        public bool llenarComboXDepto(DropDownList Combo, int idDepto)
-        {
-            try
-            {
-                if (Combo == null || idDepto  < 0)
-                {
-                    Error = "Combo  no  o id departamento inválido";
-                    return false;
-                }
-
-                clsGenerales objLlenar = new clsGenerales(strApp);
-                strSQL = "EXEC USP_CIUDAD_BuscarPorDepto " + idDepto + ";";
-
-                if (!objLlenar.llenarCombo(Combo, strSQL, "Codigo", "Nombre"))
-                {
-                    Error = objLlenar.Error;
-                    objLlenar = null;
-                    return false;
-                }
-                objLlenar = null;
-                return true;
-            }
-            catch (Exception ex)
-            {
-                Error = ex.Message;
-                return false;
-            }
-        }
-
         #endregion
     }
 }

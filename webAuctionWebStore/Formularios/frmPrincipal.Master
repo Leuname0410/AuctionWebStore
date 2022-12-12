@@ -76,8 +76,9 @@
                                                     <asp:TreeNode Text="Registros" Value="frmRegistros" NavigateUrl="~/Formularios/frmRegistros.aspx"></asp:TreeNode>
                                                 </asp:TreeNode>
                                                 <asp:TreeNode Text="Maestros" Value="mnuMaestros">
-                                                    <asp:TreeNode Text="Registro Usuario" Value="frmRegistro" NavigateUrl="~/Formularios/frmRegistrarUsuario.aspx"></asp:TreeNode>
+                                                    <asp:TreeNode Text="Registro Usuario" Value="frmRegistro" NavigateUrl="~/Formularios/frmUsuarioRegistrar.aspx"></asp:TreeNode>
                                                     <asp:TreeNode Text="Crear Remate" Value="frmRemate" NavigateUrl="~/Formularios/frmCrearRemate.aspx"></asp:TreeNode>
+                                                    <asp:TreeNode Text="Login" Value="frmLogin"></asp:TreeNode>
                                                 </asp:TreeNode>
                                             </Nodes>
                                             <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="0px" NodeSpacing="0px" VerticalPadding="0px" />

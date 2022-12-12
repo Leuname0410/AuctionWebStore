@@ -11,7 +11,13 @@ namespace webAuctionWebStore.Formularios
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string userName;
 
+            if (!IsPostBack)
+            {
+                userName = Session["nameUser"].ToString() + " " +  Session["lastnameUser"].ToString();
+                this.lblUserName.Text = userName;
+            }
         }
     }
 }
